@@ -68,7 +68,7 @@ The agent architecture follows a basic structure involving STT, LLM interaction,
 
 ## Demonstration Video
 
-[Link to LOOM (or similar platform) Demonstration Video](YOUR_LOOM_VIDEO_LINK_HERE)
+[Link to Video Demonstration](https://drive.google.com/file/d/1VZoPNuzHhFBjP3yWY04UyhwWypeLci9K/view?usp=drive_link)
 
 ## Completed, Partially Implemented, and Unfinished Features
 
