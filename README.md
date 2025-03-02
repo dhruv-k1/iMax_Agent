@@ -9,8 +9,8 @@ This project implements an AI agent capable of conducting personalized and human
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your_repository_url>
-    cd <your_repository_directory>
+    git clone https://github.com/dhruv-k1/iMax_Agent.git
+    cd iMax_Agent
     ```
 
 2.  **Install Dependencies:**
