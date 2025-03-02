@@ -1,0 +1,12 @@
+transformers
+torch
+langchain
+speechrecognition
+whisper
+gtts
+python-dotenv
+sounddevice
+soundfile
+pyttsx3
+peft
+PyAudio

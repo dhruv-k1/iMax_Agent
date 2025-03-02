@@ -1,0 +1,1 @@
+print("PyAudio version:", p.__version__)
