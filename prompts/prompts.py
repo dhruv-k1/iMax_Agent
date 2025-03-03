@@ -1,4 +1,3 @@
-# --- prompts.py ---
 # Defines prompts for different scenarios
 def get_erp_demo_prompt(customer_name, product_name, knowledge):
     return f"""You are a cold-calling agent for {knowledge['company_name']}. You are calling {customer_name} to offer a demo of the {product_name} ERP system. 

@@ -1,17 +1,16 @@
-# --- models.py ---
 # Model loading and inference (LLM, TTS, STT)
-from transformers import pipeline #Remove transformers
-from core.constants import DEFAULT_TTS_VOICE, DEFAULT_LLM_MODEL, GEMINI_API_KEY#Add gemini, removed STT
+from transformers import pipeline 
+from core.constants import DEFAULT_TTS_VOICE, DEFAULT_LLM_MODEL, GEMINI_API_KEY
 import os
 import pyttsx3
-import re # For regex
+import re 
 
 import google.generativeai as genai #Example of a gemini library
 
 class TextToSpeech:
     def __init__(self, voice=DEFAULT_TTS_VOICE):
         self.engine = pyttsx3.init()
-        self.engine.setProperty('rate', 150)  # Adjust speed as needed
+        self.engine.setProperty('rate', 150)  
         voices = self.engine.getProperty('voices')
         # Find a suitable voice (this might need OS-specific adjustments)
         for v in voices:
